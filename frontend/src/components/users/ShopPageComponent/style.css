@@ -1,0 +1,12 @@
+.leftProductSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subLinks {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: green;
+    cursor: pointer;
+}

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navbar */
+.navbar {
+    border: none;
+
+    border-bottom: 0px;
+
+}
+
+.navbarSection {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    /* background-image: url(../../../images/Banner.jpg); */
+    background-color: #c5e4e7;
+
+
+}
+
+.navbarSection .nav-link {
+    font-weight: 500;
+    vertical-align: none;
+}
+
+.nav-icons {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.carticon {
+    vertical-align: text-top;
+}
+
+.usericon {
+    vertical-align: text-top;
+}
+
+
+/* hero-section */
+.hero-section {
+    height: 100vh;
+    background-image: url("../../images/Banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading {
+
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.hero-heading h1 {
+    color: #2c541d;
+    font-size: 50px;
+
+    line-height: 1em;
+    letter-spacing: 10px;
+}
+
+.hero-heading h4 {
+    color: #050505;
+    font-size: 30px;
+    font-weight: 300;
+
+    letter-spacing: 1.3px;
+}
+
+.hero-heading a {
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background-color: #74a84a;
+    color: white;
+    text-decoration: none;
+}
+
+/* customer review section */
+.rowSection {
+    margin-top: 5%;
+}
+
+.customerReiviewsection {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.customerReview {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.userreview {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    text-align: start;
+}
+
+.userreview span {
+    font-size: 1.5rem;
+    color: #74a84a;
+}
+
+.userreview h4 {
+    font-size: 1.2rem;
+}
+
+/* footer */
+.footerSection {
+    border-top-color: #eaeaea;
+    padding: 20px;
+    border-top-width: 1px !important;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.footerSection h4 {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+/* shopsection */
+
+
+
+
+.prodColumn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.productCard {
+    width: 100%;
+    border: none;
+
+}
+
+.productCard:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardBody {
+    text-align: left;
+}
+
+.cardBody .card-title {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.cardBody h4 {
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cardBody p {
+    font-weight: 500;
+    color: green;
+
+}
+
+.productCardImg {
+    width: 100%;
+    height: 250px;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
+}
+
+.searchBTN {
+    font-size: 1rem;
+}
+
+/* Product Info  */
+.rowtop {
+    margin-top: 4%;
+}
+
+.ProductInfoCard {
+    height: auto;
+    border: none;
+}
+
+.infocardbody {
+    text-align: left;
+    text-transform: capitalize;
+
+}
+
+.infocardbody .card-title {
+    color: grey;
+}
+
+.infocardbody .card-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.infoprice {
+    font-weight: 500;
+    font-size: 28px;
+    color: #212121;
+
+}
+
+.infocardfooter {
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    color: none;
+    border: none;
+
+}
+
+.infocardfooter Button {
+    background-color: #fb641b;
+    color: white;
+    padding: 10px 30px;
+    word-spacing: 2px;
+
+}
+
+.infocardfooter Button:hover {
+    background-color: white;
+    color: #fb641b;
+}
+
+.footericon {
+    font-size: 1.6rem;
+}
+
+.imageGallery {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.galleryimg {
+    width: 100px;
+    height: 80px;
+}
+
+.galleryimg:hover,
+.galleryimg:active {
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.descriptionBody {
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 4px;
+
+    padding: 20px;
+    letter-spacing: 1px;
+    color: #050505;
+    font-weight: 500;
+}
+
+.descriptionBody .card-title {
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.quantityIcons {
+    cursor: pointer;
+}
+
+/* price details */
+
+.priceDetailBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
